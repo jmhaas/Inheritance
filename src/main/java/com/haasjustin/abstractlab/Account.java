@@ -15,7 +15,7 @@ public class Account {
 
         business.balance(atm.userInputTwo());
         checking.balance(atm.userInputTwo());
-        savings.balance()
+        savings.balance(atm.userInputTwo());
 
 
 
