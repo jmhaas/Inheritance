@@ -1,10 +1,9 @@
-package TestMain;
+package TestClassManager;
 
 /**
  * Created by justinhaas on 5/2/17.
  */
 
-import org.junit.Assert;
 import org.junit.Test;
 
 
@@ -15,5 +14,7 @@ public class TestProduct {
     //:Given
     String name = ("Justin");
     }
+
+
 
 }
