@@ -11,10 +11,5 @@ public class Main {
 
     public static void main(String[] arg){
 
-        Product product = new Product();
-
-        System.out.print(product);
-
-
     }
 }
