@@ -18,15 +18,15 @@ public class Product {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public double getPrice() {
-        return this.price;
+        return price;
     }
 
     public int getQuantity() {
-        return this.quantity;
+        return quantity;
     }
 
 

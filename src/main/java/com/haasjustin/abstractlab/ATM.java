@@ -18,4 +18,6 @@ public class ATM {
     public double userInputTwo(){
         return inp.nextInt();
     }
+
+
 }

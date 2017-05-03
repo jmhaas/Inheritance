@@ -13,6 +13,9 @@ public class Account {
         Checking checking = new Checking();
         Savings savings = new Savings();
 
+        business.balance(atm.userInputTwo());
+        checking.balance(atm.userInputTwo());
+        savings.balance()
 
 
 
