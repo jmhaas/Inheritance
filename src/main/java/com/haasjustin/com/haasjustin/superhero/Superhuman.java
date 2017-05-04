@@ -44,21 +44,21 @@ public class Superhuman extends Human {
         batman.setGender("Male");
         batman.setAlliance("Justice League");
         batman.setPower("Literally the best");
-        Scanner scn = new Scanner(System.in);
-        System.out.println(scn.next("Name: " + " " + batman.getName()));
 
-        System.out.println(scn.next("Age: " + " " + batman.getAge()));
+        System.out.println("Name: " + " " + batman.getName());
 
-        System.out.println(scn.next("Gender: " + " " + batman.getGender()));
+        System.out.println("Age: " + " " + batman.getAge());
 
-        System.out.println(scn.next("Address: " + " " + batman.getAddress()));
+        System.out.println("Gender: " + " " + batman.getGender());
 
-        System.out.println(scn.next("Occupation: " + " " + batman.getOccupation()));
+        System.out.println("Address: " + " " + batman.getAddress());
 
-        System.out.println(scn.next("Alliance: " + " " + batman.getAlliance()));
+        System.out.println("Occupation: " + " " + batman.getOccupation());
 
-        System.out.println(scn.next("Power: " + " " + batman.getPower()));
-        scn.close();
+        System.out.println("Alliance: " + " " + batman.getAlliance());
+
+        System.out.println("Power: " + " " + batman.getPower());
+
     }
 }
 
