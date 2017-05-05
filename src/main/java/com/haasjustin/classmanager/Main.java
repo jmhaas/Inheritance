@@ -19,6 +19,7 @@ public class Main {
         inventory.setProducts(products);
 
 
+
         System.out.println(inventory.getProductByName(""));
         System.out.println(inventory.getProducts());
         System.out.println(inventory.getSum());

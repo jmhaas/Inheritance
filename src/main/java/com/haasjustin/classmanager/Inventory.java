@@ -27,14 +27,14 @@ public class Inventory {
 
     }
 
-    public void setProducts(Product[] product) {
+    public void setProducts(Product[] product){
         this.products = product;
     }
 
-    public int getSum() {
+    public int getSum(){
         int sum = 0;
 
-        for (Product product : products) {
+        for(Product product : products){
             sum += product.getQuantity() * product.getPrice();
         }
 
