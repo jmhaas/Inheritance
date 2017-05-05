@@ -9,9 +9,12 @@ public class Main {
 
     public static void main(String[] args){
 
+        Scanner scn = new Scanner(System.in);
         System.out.println("How many pets do you have?");
-        Scanner inp = new Scanner(System.in);
-        inp.nextInt();
+        int x = scn.nextInt();
+
+
+        for(x = 0; x < 10; x++ )
 
 
 
